@@ -1,0 +1,40 @@
+
+
+public static void main (String args[]) {
+
+    Scanner sc = new Scanner(System.in);
+
+    double marks = sc.nextDouble();
+
+    Gradecalc(marks);
+
+    sout ("Your grade is C");
+}
+
+public static char Gradcalc(double mark) {
+
+    char c;
+
+    if (mark>=90) {
+
+        c = 'A';
+    }
+    else if (mark>=80) {
+
+        c = 'B';
+    }
+    else if (mark>=70) {
+
+        c = 'C';
+    }
+    else if (mark>=60) {
+
+        c = 'D';
+    }
+    else {
+
+        c = 'F';
+    }
+
+    return c;
+}

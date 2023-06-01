@@ -1,0 +1,29 @@
+so, use "psvm" and then tab, to generate public static void main string args automatically
+
+similarly, "sout", and syso and tab generates System.out.println
+
+remember, public class must start with a Capital letter, and match the name of the file (case sensitive)
+
+if you're gonna take a full string input using sc.nextLine, after maybe taking a number as an input, remember to clear the input buffer.
+you do this by putting in sc.nextLine one time before actually taking the input.
+so, nextLine takes input until the return button is hit, since you hit it after entering a number, it stops operation.
+now, putting in an extra sc.nextLine compensates for the return hit and then takes the string until return is hit again properly,
+the way it's supposed to.
+
+CLI TIPS:
+ls: to list current directories (where you're at)
+cd: to make your current directory that folder (or to enter the folder, "cd LAB1")
+javac: to compile your class (basically "javac L1T2.java")
+java: to run it, just type in java and just the name of the file (no extension, so "java L1T2")
+
+
+/*reference class -> */ Animal /*actual class -> */ pig = new Animal();
+
+additional,
+cp: copy a file
+mkdir: make a new directory (folder)
+mv: ***IMP*** move or rename sth (so to rename, for example a file named "wow" to "wow.java", you'd enter: "mv wow wow.java")
+rm: remove or delete files 
+rmdir: remove directory (folder)
+
+

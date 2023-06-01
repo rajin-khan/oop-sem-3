@@ -1,0 +1,72 @@
+5 questions, 25 marks
+
+~ 5 marks for basics (String)
+
+~ rest 20, UML diagram, like lab 8, and you create a driver or tester class where you find out the rest.
+
+~ 5 marks (bonus if you can solve the rest)
+
+read about the string functions
+
+
+super has mainly 3 uses:
+
+~ as a referral to the immediate parent class constructor, like super(*constructor*)
+~ to refer to the immediate parent class attribute, like super.attribute_name
+~ to refer to the immediate parent class method, like super.toString
+
+
+if you want to print an object in another class, for example, a class Person, and you want to print all their info, and Address happens to be 
+an object, then you'd write a toString in the Address class, then create an object of the address (say, a1, IN THE CONSTRUCTOR OF PERSON), 
+pass an object of the Address into the person constructor, and then in the toString of Person, call the toString of the address, 
+using the address object you just created (a1), call a1.toString(). 
+so the constructor would have:
+
+Public class Person {
+
+    private String name;
+    private int age;
+    private Address a1;
+
+    public person (String name, int age, String house, String street, String houseno) {
+
+    new Address (String house, String street, String houseno); //create the new object here, NOT in the instance variable part (private Address a1)
+    this.name = name;
+    this.age = age;
+
+    }
+}
+
+* in the above case, you can literally even treat the object and declare a new one likw you would a variable
+so in the person class,
+you could write:
+
+private Address a1; 
+
+and then for the constructor parameter, you could write:
+
+Person(String name, int age, Address a1) {
+
+    this.name = name;
+    this.age = age;
+    this.address = a1;
+}
+
+and while doing the toString, same as before, a1.toString;
+if you do use this (*) method, you must create an object of the address in the main class.
+
+this whole thing, where you don't use the super keyword but call functions methods and stuff form another class, is called association inheritance,
+not direct inheritance.
+
+
+normal inheritance from parent to child is shown in a UML diagram as an arrow from child uml box pointing to parent uml box.
+association inheritance is shown by an arrow pointing from the main object (maybe call it a parent) to the other object, and an asterisk above
+it. so, box person would have an arrow pointing to address with an asterisk.
+
+the nextLine input immediately after a number problem is cleared by taking an extra nextLine input.
+
+
+mistake in lab mid: 
+in the constructor of real imaginary real imaginary
+crate a complex object
+and set real imaginary to the real imaginary of those two objects
