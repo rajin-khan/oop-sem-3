@@ -1,4 +1,4 @@
-## programming fundamentals
+## object oriented programming
 
 all codes from my third semester in uni.
 we primarily used Java and learned Object Oriented Programming. 
