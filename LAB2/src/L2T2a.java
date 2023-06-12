@@ -4,8 +4,7 @@ public class L2T2a {
     
     public static void main(String[] args) {
         
-        try (Scanner sc = new Scanner(System.in)) {
-        }
+        Scanner sc = new Scanner(System.in);
 
         for (int i=0; i<5; i++) {
 
@@ -25,6 +24,8 @@ public class L2T2a {
             }
             System.out.println();
         }
+
+        sc.close();
     }
     
 }

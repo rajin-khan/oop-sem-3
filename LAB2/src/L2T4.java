@@ -4,8 +4,7 @@ public class L2T4 {
 
     public static void main(String[] args) {
         
-        try (Scanner sc = new Scanner(System.in)) {
-        }
+        Scanner sc = new Scanner(System.in);
 
         System.out.println();
 
@@ -23,9 +22,8 @@ public class L2T4 {
             counter--;
         }
 
+        sc.close();
         
-    
-
         System.out.println("\n");
     }
     
