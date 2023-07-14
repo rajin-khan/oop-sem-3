@@ -10,7 +10,7 @@ THIS GAME WAS CREATED BY THE SOLE EFFORTS OF:
 FROM TWITTER USER/ARTIST: @lenard_pr
 
 >RUNNER PNG: `https://www.reddit.com/r/Marvel/comments/8s13g0/cool_8_bit_civil_war_anyone_know_the_artist/?utm_source=ifttt`
-ARTIST UNKNOWN, TAKEN FROM: r/Marvel SUBREDDIT
+ARTIST UNKNOWN, FROM: r/Marvel SUBREDDIT
 
 >OBSTACLES PNGS: `https://stock.adobe.com/search?k=8+bit+spaceship&asset_id=278775471`
 ADOBE STOCK ASSET BY USER: robu_s
